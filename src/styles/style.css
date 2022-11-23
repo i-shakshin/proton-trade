@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Poppins Regular";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 5.17px 0;
+}
+
+header {
+  height: 64px;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu a {
+  color: #343a40;
+  text-decoration: none;
+  font-family: "Poppins Regular";
+  font-style: normal;
+  font-size: 14px;
+  margin-right: 40px;
+}
+
+.logo-images img:nth-child(2) {
+  padding: 6px 0;
+}
